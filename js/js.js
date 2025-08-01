@@ -89,6 +89,8 @@ const galleryMarkup = galleryItems
   )
   .join("");
 
+closeBtn.innerHTML = `<img class="lightbox__image" src="https://c8.alamy.com/comp/GRMJ38/close-icon-GRMJ38.jpg" alt="" />`
+
 galleryContainer.innerHTML = galleryMarkup;
 
 galleryContainer.addEventListener("click", onGalleryClick);
